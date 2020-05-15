@@ -2,7 +2,7 @@
 #define size 20
 #define true 1
 #define false 0
-int queue[size],visit[20],r=-1,f=0;
+int queue[size],visit[20],r=-1,f=0; 
 int n,s,adj[20][20],flag=0;
 void insq(int x)
 {
