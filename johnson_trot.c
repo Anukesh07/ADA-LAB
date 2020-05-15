@@ -7,7 +7,7 @@ int dir[100];
 void PrintPer()
 {
    int i;
-   count=count+1;
+   count=count+1; 
    printf("[%d]",count);
    for(i=1;i<=NN;++i)
    {
