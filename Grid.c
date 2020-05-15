@@ -3,7 +3,7 @@ void FindGrid(int n)
 {
     int arr[n][n];
     int x=0;
-    for(int i=0;i<n/4;i++)
+    for(int i=0;i<n/4;i++) 
     {
         for(int j=0;j<n/4;j++)
         {
