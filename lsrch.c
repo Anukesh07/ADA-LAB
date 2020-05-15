@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int srch(int arr[],int m,int n,int ele)
+int srch(int arr[],int m,int n,int ele) 
 {
     if(n<m)
     {
