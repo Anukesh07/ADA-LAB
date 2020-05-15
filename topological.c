@@ -5,7 +5,7 @@ void dfs(int x)
 {
   int y;
   visit[x]=1;
-  for(y=1;y<=n;y++)
+  for(y=1;y<=n;y++) 
   {
     if((adj[x][y]==1) && (visit[y]==0))
     {
