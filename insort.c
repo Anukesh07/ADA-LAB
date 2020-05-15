@@ -4,7 +4,7 @@
 void insort(int a[],int n)
 {
 	int i,j,k;
-	for(i=1;i<n;i++)
+	for(i=1;i<n;i++) 
 	{
 		k=a[i];
 		j=i-1;
