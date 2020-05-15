@@ -3,7 +3,7 @@
 void srch(int a[],int k,int n)
 {
 	int mid,count,fo,lo,fir,las,mid;
-	fir=0;
+	fir=0; 
 	las=n-1;
 	mid=(fir+las)/2;
 	while(fir<=las)
