@@ -23,7 +23,7 @@ void main()
 				a[j]=s;
 			}
 		}
-	}
+	} 
 	end=clock();
 	cpu_time_used=((double) (end - start))/CLOCKS_PER_SEC;
 	printf("After sorting\n");
