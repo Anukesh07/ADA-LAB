@@ -1,5 +1,5 @@
 #include<stdio.h>
-int visit[20],n,adj[20][20],s,count=0;
+int visit[20],n,adj[20][20],s,count=0; 
 
 void dfs(int x)
 {
