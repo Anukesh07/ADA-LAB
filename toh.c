@@ -7,7 +7,7 @@ void toh(int n,char start,char mid,char end)
 		printf("Move the disc %d from %c to %c\n",n,start,end);
 	}
 	else
-	{
+	{ 
 		toh(n-1,start,end,mid);
 		printf("Move the disc %d from %c to %c\n",n,start,end);
 		toh(n-1,mid,start,end);
