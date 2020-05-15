@@ -10,7 +10,7 @@ void main()
 	scanf("%d",&k);
 	printf("Enter the distinct elements of the array\n");
 	for(i=0;i<n;i++)
-		scanf("%d",&a[i]);
+		scanf("%d",&a[i]); 
 	for(i=0;i<n;i++)
 	{
 		m=i;
